@@ -31,12 +31,7 @@ parser.add_argument('--restore_file', default='best', help="name of the file in 
 def evaluate(model, manager):
     rank = dist.get_rank()
     world_size = dist.get_world_size()
-    """Evaluate the model on `num_steps` batches.
 
-    Args:
-        model: (torch.nn.Module) the neural network
-        manager: a class instance that contains objects related to train and evaluate.
-    """
     # set model to evaluation mode
     model.eval()
 
@@ -80,12 +75,6 @@ def evaluate(model, manager):
 
 
 def test(model, manager):
-    """Test the model with loading checkpoints.
-
-    Args:
-        model: (torch.nn.Module) the neural network
-        manager: a class instance that contains objects related to train and evaluate.
-    """
     # set model to evaluation mode
     model.eval()
 
@@ -131,9 +120,6 @@ def test(model, manager):
 
 
 if __name__ == '__main__':
-    """
-        Evaluate the model on the test set.
-    """
     # Load the parameters
     args = parser.parse_args()
     json_path = os.path.join(args.model_dir, 'params.json')

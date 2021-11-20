@@ -149,16 +149,6 @@ class TestDataset(Dataset):
 
 
 def fetch_dataloader(params):
-    """
-    Fetches the DataLoader object for each type in types from data_dir.
-
-    Args:
-        types: (list) has one or more of 'train', 'val', 'test' depending on which data is required
-        status_manager: (class) status_manager
-
-    Returns:
-        data: (dict) contains the DataLoader object for each type in types
-    """
     input_transform = fetch_input_transform()
     spatial_transform = fetch_spatial_transform(params)
 

@@ -54,17 +54,6 @@ def make_gif(img1, img2, img2_gyro_warp, img2_warp, idx=0):
 
 def train(model, manager, gm, info=False):
     rank = dist.get_rank()
-    """Train the model on `num_steps` batches
-
-    Args:
-        model: (torch.nn.Module) the neural network
-        optimizer: (torch.optim) optimizer for parameters of model
-        loss_fn: a function that takes batch_output and batch_labels and computes the loss for the batch
-        dataloader: (DataLoader) a torch.utils.data.DataLoader object that fetches training data
-        metrics: (dict) a dictionary of functions that compute a metric using the output and labels of each batch
-        params: (Params) hyperparameters
-        num_steps: (int) number of batches to train on, each of size params.batch_size
-    """
 
     # loss status and val/test status initial
     manager.reset_loss_status()
@@ -112,12 +101,6 @@ def train(model, manager, gm, info=False):
 
 def train_and_evaluate(model, manager):
     rank = dist.get_rank()
-    """Train the model and evaluate every epoch.
-
-    Args:
-        model: (torch.nn.Module) the neural network
-        train_dataloader: (DataLoader) a torch.utils.data.DataLoader object that fetches training data
-    """
 
     # reload weights from restore_file if specified
     if args.restore_file is not None:
