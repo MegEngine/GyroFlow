@@ -1,0 +1,38 @@
+{
+    "learning_rate": 0.0005,
+    "train_batch_size": 4,
+    "eval_batch_size": 4,
+    "num_epochs": 300,
+    "upsample": true,
+    "num_workers": 8,
+    "data_dir": "dataset",
+    "net_type": "gyroflow",
+    "save_mode": "local",
+    "only_weights": true,
+    "occ_from_back": false,
+    "data_aug": {
+        "crop": true,
+        "hflip": false,
+        "para_crop": [
+            512,
+            640
+        ],
+        "swap": false
+    },
+    "loss_type": "UnFlowLoss",
+    "loss": {
+        "l1": 0.15,
+        "ssim": 0.85,
+        "tenary": 0
+    },
+    "lr_decay": 0.8,
+    "cpu": 12,
+    "memory": 60000,
+    "gpu": 1,
+    "metric_rule": "Descende",
+    "bucket_name": "",
+    "fine_tune": false,
+    "major_metric": "EPE",
+    "dataset_type": "GOF",
+    "eval_type": "val"
+}
