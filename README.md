@@ -49,7 +49,7 @@ The download link is [GoogleDrive](https://drive.google.com/file/d/1X9V_DT1JHJti
 
 The most difficult cases are collected in GOF-Final.
 
-The download link is [GoogleDrive](https://drive.google.com/file/d/1BMuTNygl_W0xWMoHlck_h60inyu7BE1x/view?usp=sharing) or [CDN](https://data.megengine.org.cn/research/gyroflow/GOF_Final.npy). Move the file to `./dataset/GOF_Final.npy`.
+The download link is [GoogleDrive](https://drive.google.com/file/d/1BMuTNygl_W0xWMoHlck_h60inyu7BE1x/view?usp=sharing). Move the file to `./dataset/GOF_Final.npy`.
 
 ## Training and Evaluation
 
@@ -71,7 +71,7 @@ python evaluate.py --model_dir experiments --restore_file experiments/val_model_
 
 We've updated the GOF (both trainset and testset), so the performance is a little bit different from the results reported in our paper.
 
-MegEngine checkpoint can be download via [Google Drive](https://drive.google.com/file/d/18lK8MnOoE94MDoCjFtikvtdtd786DWLn/view?usp=sharing) or [CDN](https://data.megengine.org.cn/research/gyroflow/val_model_best.pkl).
+MegEngine checkpoint can be download via [Google Drive].
 
 ## Citation
 
