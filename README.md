@@ -49,7 +49,7 @@ The download link is [GoogleDrive](https://drive.google.com/file/d/1X9V_DT1JHJti
 
 The most difficult cases are collected in GOF-Final.
 
-The download link is [GoogleDrive](https://drive.google.com/file/d/1BMuTNygl_W0xWMoHlck_h60inyu7BE1x/view?usp=sharing). Move the file to `./dataset/GOF_Final.npy`.
+The download link is [GoogleDrive](https://drive.google.com/file/d/1n1ieGkilwWraxEN6XZUX1kA-tiTgEGlw/view?usp=sharing). Move the file to `./dataset/GOF_Final.npy`.
 
 ## Training and Evaluation
 
