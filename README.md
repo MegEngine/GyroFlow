@@ -2,6 +2,8 @@
 
 This is the official implementation of our ICCV2021 paper [GyroFlow](https://openaccess.thecvf.com/content/ICCV2021/html/Li_GyroFlow_Gyroscope-Guided_Unsupervised_Optical_Flow_Learning_ICCV_2021_paper.html).
 
+We also provide a PyTorch version, check at [GyroFlow-PyTorch](https://github.com/lhaippp/GyroFlow-PyTorch)
+
 Our presentation video: [[Youtube](https://www.youtube.com/watch?v=6gh40PyWdHM)][[Bilibili](https://www.bilibili.com/video/BV1Tr4y127kd/)].
 
 ## Our Poster
