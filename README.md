@@ -6,10 +6,6 @@ We also provide a PyTorch version, check at [GyroFlow-PyTorch](https://github.co
 
 Our presentation video: [[Youtube](https://www.youtube.com/watch?v=6gh40PyWdHM)][[Bilibili](https://www.bilibili.com/video/BV1Tr4y127kd/)].
 
-## Our Poster
-
-![image](gyroflow_poster.jpg)
-
 ## Dependencies
 
 * MegEngine==1.6.0
