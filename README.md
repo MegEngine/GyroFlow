@@ -17,6 +17,8 @@ Our presentation video: [[Youtube](https://www.youtube.com/watch?v=6gh40PyWdHM)]
 
 2021.11.15: We release the GOF_Train V1 that contains 2000 samples.
 
+2022.06.22: We release the PyTorch Version, welcome to have a try.
+
 The download link is [GoogleDrive](https://drive.google.com/file/d/1eG9W-AlKrQ_fsxT4As6wzGaewCksYxnK/view?usp=sharing) or [CDN](https://data.megengine.org.cn/research/gyroflow/GOF_Train.zip). Put the data into `./dataset/GOF_Train`, and the contents of directories are as follows:
 
 ```
