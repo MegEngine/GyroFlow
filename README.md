@@ -1,10 +1,16 @@
 # [ICCV 2021] GyroFlow: Gyroscope-Guided Unsupervised Optical Flow Learning
 
-This is the official implementation of our ICCV2021 paper [GyroFlow](https://openaccess.thecvf.com/content/ICCV2021/html/Li_GyroFlow_Gyroscope-Guided_Unsupervised_Optical_Flow_Learning_ICCV_2021_paper.html).
+<h4 align="center"> Haipeng Li$^1$, Kunming Luo$^1$, Shuaicheng Liu$^{2,1}$</h4>
+<h4 align="center"> 1. Megvii Research, 2. University of Electronic Science and Technology of China</h4>
 
-We also provide a PyTorch version, check at [GyroFlow-PyTorch](https://github.com/lhaippp/GyroFlow-PyTorch)
+This is the official implementation of our ICCV2021 paper [GyroFlow](https://openaccess.thecvf.com/content/ICCV2021/html/Li_GyroFlow_Gyroscope-Guided_Unsupervised_Optical_Flow_Learning_ICCV_2021_paper.html). We also provide a PyTorch version, check at [GyroFlow-PyTorch](https://github.com/lhaippp/GyroFlow-PyTorch)
 
-Our presentation video: [[Youtube](https://www.youtube.com/watch?v=6gh40PyWdHM)][[Bilibili](https://www.bilibili.com/video/BV1Tr4y127kd/)].
+
+## Abstract
+Existing optical flow methods are erroneous in challenging scenes, such as fog, rain, and night because the basic optical flow assumptions such as brightness and gradient constancy are broken. To address this problem, we present an unsupervised learning approach that fuses gyroscope into optical flow learning. Specifically, we first convert gyroscope readings into motion fields named gyro field. Second, we design a self-guided fusion module to fuse the background motion extracted from the gyro field with the optical flow and guide the network to focus on motion details. To the best of our knowledge, this is the first deep learning-based framework that fuses gyroscope data and image content for optical flow learning. To validate our method, we propose a new dataset that covers regular and challenging scenes. Experiments show that our method outperforms the state-of-art methods in both regular and challenging scenes.
+
+## Presentation video
+[[Youtube](https://www.youtube.com/watch?v=6gh40PyWdHM)][[Bilibili](https://www.bilibili.com/video/BV1Tr4y127kd/)].
 
 ## Dependencies
 
