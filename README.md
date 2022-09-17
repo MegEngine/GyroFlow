@@ -1,6 +1,6 @@
 # [ICCV 2021] GyroFlow: Gyroscope-Guided Unsupervised Optical Flow Learning
 
-<h4 align="center"> Haipeng Li$^1$, Kunming Luo$^1$, Shuaicheng Liu$^{2,1}$</h4>
+<h4 align="center"> Haipeng Li<sup>1</sup>, Kunming Luo<sup>1</sup>, Shuaicheng Liu<sup>2,1</sup></h4>
 <h4 align="center"> 1. Megvii Research, 2. University of Electronic Science and Technology of China</h4>
 
 This is the official implementation of our ICCV2021 paper [GyroFlow](https://openaccess.thecvf.com/content/ICCV2021/html/Li_GyroFlow_Gyroscope-Guided_Unsupervised_Optical_Flow_Learning_ICCV_2021_paper.html). We also provide a PyTorch version, check at [GyroFlow-PyTorch](https://github.com/lhaippp/GyroFlow-PyTorch)
