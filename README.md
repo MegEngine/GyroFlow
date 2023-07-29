@@ -19,43 +19,11 @@ Existing optical flow methods are erroneous in challenging scenes, such as fog, 
 
 ## Data Preparation
 
-### GOF-Train
-
 2021.11.15: We release the GOF_Train V1 that contains 2000 samples.
 
 2022.06.22: We release the PyTorch Version, welcome to have a try.
 
-The download link is [GoogleDrive](https://drive.google.com/file/d/1eG9W-AlKrQ_fsxT4As6wzGaewCksYxnK/view?usp=sharing) or [CDN](https://data.megengine.org.cn/research/gyroflow/GOF_Train.zip). Put the data into `./dataset/GOF_Train`, and the contents of directories are as follows:
-
-```
-./dataset/GOF_Train
-├── sample_0
-│   ├── img1.png
-│   ├── img2.png
-│   ├── gyro_homo.npy
-├── sample_1
-│   ├── img1.png
-│   ├── img2.png
-│   ├── gyro_homo.npy
-.....................
-├── sample_1999
-│   ├── img1.png
-│   ├── img2.png
-│   ├── gyro_homo.npy
-
-```
-
-### GOF-Clean
-
-For quantitative evaluation, including input frames and the corresponding gyro readings, a ground-truth optical flow is required for each pair.
-
-The download link is [GoogleDrive](https://drive.google.com/file/d/1X9V_DT1JHJti6BeWnWnqAfR4QEzvFQoE/view?usp=sharing) or [CDN](https://data.megengine.org.cn/research/gyroflow/GOF_Clean.npy). Move the file to `./dataset/GOF_Clean.npy`.
-
-### GOF-Final
-
-The most difficult cases are collected in GOF-Final.
-
-The download link is [GoogleDrive](https://drive.google.com/file/d/1n1ieGkilwWraxEN6XZUX1kA-tiTgEGlw/view?usp=sharing). Move the file to `./dataset/GOF_Final.npy`.
+2023.07.28: Please check to [GyroFlow-PyTorch](https://github.com/lhaippp/GyroFlow-PyTorch) for Data Preparation 
 
 ## Training and Evaluation
 
